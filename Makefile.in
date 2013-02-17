@@ -26,6 +26,7 @@ setserial.cat: setserial.8
 	nroff -man setserial.8 > setserial.cat
 
 install: setserial setserial.8
+	$(INSTALL_PROGRAM) -d $(DESTDIR)/bin $(DESTDIR)/usr/man/man8
 	$(INSTALL_PROGRAM) setserial $(DESTDIR)/bin
 	$(STRIP) $(DESTDIR)/bin/setserial
 	$(INSTALL_DATA) setserial.8 $(DESTDIR)/usr/man/man8

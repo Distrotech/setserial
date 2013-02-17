@@ -10,7 +10,9 @@
  * Last modified: [tytso:19940520.0036EDT]
  */
 
+
 #include <stdio.h>
+#include <stdlib.h>
 #include <fcntl.h>
 #include <termios.h>
 #include <string.h>
