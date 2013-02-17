@@ -28,7 +28,6 @@ setserial.cat: setserial.8
 install: setserial setserial.8
 	$(INSTALL_PROGRAM) -d $(DESTDIR)/usr/bin $(DESTDIR)/usr/man/man8
 	$(INSTALL_PROGRAM) setserial $(DESTDIR)/usr/bin
-	$(STRIP) $(DESTDIR)/bin/setserial
 	$(INSTALL_DATA) setserial.8 $(DESTDIR)/usr/man/man8
 
 clean:
