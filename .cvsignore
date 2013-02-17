@@ -1,0 +1,8 @@
+Makefile
+configure
+config.log
+config.cache
+config.status
+setserial.8
+setserial
+setserial.cat
